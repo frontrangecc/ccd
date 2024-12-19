@@ -1,0 +1,1539 @@
+[
+  {
+    "id": "aria-prohibited-attr",
+    "title": "Elements use prohibited ARIA attributes",
+    "description": "Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies. [Learn more about prohibited ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,1,A",
+            "selector": "div.main-wrapper > main > section#content > a#main-content",
+            "boundingRect": {
+              "top": 600,
+              "bottom": 600,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a id=\"main-content\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,0,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 892,
+              "bottom": 914,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"A\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,1,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 959,
+              "bottom": 981,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"A\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,2,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1026,
+              "bottom": 1048,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"A\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,3,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1093,
+              "bottom": 1115,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"A\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,4,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1160,
+              "bottom": 1182,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"A\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,5,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1227,
+              "bottom": 1249,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"A\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,6,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1294,
+              "bottom": 1316,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"B\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,7,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1361,
+              "bottom": 1383,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"B\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,8,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1428,
+              "bottom": 1450,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"C\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,9,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1513,
+              "bottom": 1535,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"C\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,10,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1580,
+              "bottom": 1602,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"C\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,11,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1665,
+              "bottom": 1687,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"C\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,12,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1732,
+              "bottom": 1754,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"C\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,13,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1799,
+              "bottom": 1821,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"C\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,14,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1866,
+              "bottom": 1888,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"C\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-16-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,15,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 1945,
+              "bottom": 1967,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"C\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-17-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,16,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2012,
+              "bottom": 2034,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"C\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-18-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,17,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2079,
+              "bottom": 2101,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"D\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-19-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,18,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2158,
+              "bottom": 2180,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"D\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-20-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,19,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2225,
+              "bottom": 2247,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"D\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-21-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,20,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2304,
+              "bottom": 2326,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"E\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-22-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,21,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2371,
+              "bottom": 2393,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"E\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-23-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,22,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2438,
+              "bottom": 2460,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"E\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-24-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,23,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2505,
+              "bottom": 2527,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"E\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-25-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,24,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2608,
+              "bottom": 2630,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"E\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-26-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,25,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2675,
+              "bottom": 2697,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"E\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-27-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,26,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2742,
+              "bottom": 2764,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"F\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-28-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,27,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2809,
+              "bottom": 2831,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"G\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-29-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,28,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2876,
+              "bottom": 2898,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"H\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-30-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,29,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 2943,
+              "bottom": 2965,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"H\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-31-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,30,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3010,
+              "bottom": 3032,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"H\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-32-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,31,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3065,
+              "bottom": 3087,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"H\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-33-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,32,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3132,
+              "bottom": 3154,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"H\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-34-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,33,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3199,
+              "bottom": 3221,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"I\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-35-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,34,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3266,
+              "bottom": 3288,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"I\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-36-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,35,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3333,
+              "bottom": 3355,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"I\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-37-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,36,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3400,
+              "bottom": 3422,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"J\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-38-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,37,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3485,
+              "bottom": 3507,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"L\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-39-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,38,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3570,
+              "bottom": 3592,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"M\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-40-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,39,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3637,
+              "bottom": 3659,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"M\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-41-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,40,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3704,
+              "bottom": 3726,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"M\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-42-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,41,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3807,
+              "bottom": 3829,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"M\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-43-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,42,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3874,
+              "bottom": 3896,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"M\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-44-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,43,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 3959,
+              "bottom": 3981,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"M\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-45-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,44,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4026,
+              "bottom": 4048,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"M\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-46-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,45,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4093,
+              "bottom": 4115,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"M\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-47-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,46,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4160,
+              "bottom": 4182,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"N\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-48-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,47,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4227,
+              "bottom": 4249,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"N\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-49-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,48,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4294,
+              "bottom": 4316,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"P\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-50-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,49,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4379,
+              "bottom": 4401,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"P\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-51-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,50,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4446,
+              "bottom": 4468,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"P\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-52-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,51,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4513,
+              "bottom": 4535,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"P\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-53-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,52,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4598,
+              "bottom": 4620,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"P\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-54-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,53,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4665,
+              "bottom": 4687,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"P\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-55-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,54,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4732,
+              "bottom": 4754,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"P\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-56-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,55,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4799,
+              "bottom": 4821,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"P\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-57-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,56,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4866,
+              "bottom": 4888,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"P\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-58-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,57,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 4951,
+              "bottom": 4973,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"R\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-59-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,58,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 5036,
+              "bottom": 5058,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"S\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-60-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,59,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 5091,
+              "bottom": 5113,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"S\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-61-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,60,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 5158,
+              "bottom": 5180,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"S\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-62-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,61,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 5225,
+              "bottom": 5247,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"S\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-63-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,62,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 5292,
+              "bottom": 5314,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"T\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-64-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,63,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 5359,
+              "bottom": 5381,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"V\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-65-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,3,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,TABLE,1,TBODY,64,TR,0,TD,0,A",
+            "selector": "tbody > tr > td.views-field-title > a",
+            "boundingRect": {
+              "top": 5426,
+              "bottom": 5448,
+              "left": 102,
+              "right": 102,
+              "width": 0,
+              "height": 22
+            },
+            "snippet": "<a name=\"V\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2"
+        ]
+      }
+    },
+    "errorCount": 66
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-66-A",
+            "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,0,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 6079,
+              "bottom": 6103,
+              "left": 102,
+              "right": 126,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.facebook.com/CCDEdu\" target=\"_blank\" class=\"fab fa-lg fa-facebook-f nav-link fabfa-lgfa-facebook-f nav-link-https--www…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.facebook.com/CCDEdu\" aria-label=\"Facebook - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.facebook.com/ccdedu$facebook\">",
+            "nodeLabel": "Facebook",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-67-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-pathways > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 5884,
+                    "bottom": 6355,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 471
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-68-A",
+            "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,1,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 6079,
+              "bottom": 6103,
+              "left": 134,
+              "right": 158,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.instagram.com/ccdedu\" target=\"_blank\" class=\"fab fa-lg fa-instagram nav-link fabfa-lgfa-instagram nav-link-https--wwwin…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.instagram.com/ccdedu\" aria-label=\"Instagram - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.instagram.com/ccdedu$instagram\">",
+            "nodeLabel": "Instagram",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-67-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-pathways > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 5884,
+                    "bottom": 6355,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 471
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-69-A",
+            "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,2,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 6079,
+              "bottom": 6103,
+              "left": 166,
+              "right": 190,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://twitter.com/CCDedu\" target=\"_blank\" class=\"fab fa-lg fa-x-twitter nav-link fabfa-lgfa-x-twitter nav-link-https--twitt…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://twitter.com/CCDedu\" aria-label=\"Twitter - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://twitter.com/ccdedu$twitter\">",
+            "nodeLabel": "Twitter",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-67-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-pathways > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 5884,
+                    "bottom": 6355,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 471
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-70-A",
+            "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,3,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 6079,
+              "bottom": 6103,
+              "left": 198,
+              "right": 222,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.linkedin.com/edu/school?id=20180&amp;trk=edu-cp-title\" target=\"_blank\" class=\"fab fa-lg fa-linkedin-in nav-link fabfa-lgfa-linkedin-in nav-link-https--w…\" aria-label=\"LinkedIn - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.linkedin.com/edu/school?id=20180&amp;trk=edu-cp-title$linkedin\">",
+            "nodeLabel": "LinkedIn",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-67-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-pathways > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 5884,
+                    "bottom": 6355,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 471
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-71-A",
+            "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,4,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 6079,
+              "bottom": 6103,
+              "left": 230,
+              "right": 254,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.youtube.com/user/CCDEdu#_ga=2.237348096.1040111329.1609706321-…\" target=\"_blank\" class=\"fab fa-youtube nav-link fabfa-youtube nav-link-https--wwwyoutubecom-user-c…\" aria-label=\"Youtube - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.youtube.com/user/ccdedu#_ga=2.237348096.1040111329.1609706321-…\">",
+            "nodeLabel": "Youtube",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-67-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-pathways > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 5884,
+                    "bottom": 6355,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 471
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]

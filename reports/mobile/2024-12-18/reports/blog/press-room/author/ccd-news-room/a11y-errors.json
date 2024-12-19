@@ -1,0 +1,1171 @@
+[
+  {
+    "id": "aria-prohibited-attr",
+    "title": "Elements use prohibited ARIA attributes",
+    "description": "Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies. [Learn more about prohibited ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,0,SECTION,1,A",
+            "selector": "main.container-xl > div.row > section#content > a#main-content",
+            "boundingRect": {
+              "top": 220,
+              "bottom": 220,
+              "left": 12,
+              "right": 12,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a id=\"main-content\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-TIME",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,SPAN,0,TIME",
+            "selector": "div.views-row > div.views-field > span.field-content > time.datetime",
+            "boundingRect": {
+              "top": 1855,
+              "bottom": 1869,
+              "left": 129,
+              "right": 219,
+              "width": 90,
+              "height": 14
+            },
+            "snippet": "<time datetime=\"2024-12-02T13:05:31-07:00\" class=\"datetime\">",
+            "nodeLabel": "December 2, 2024",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.section-blog",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 3783,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3783
+                  },
+                  "snippet": "<body class=\"section-blog layout-one-sidebar layout-sidebar-second page-view-ccd-blog p…\" data-once=\"tlibProcessed translation-processed search-processed accessible\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.section-blog"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-TIME",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,DIV,0,SPAN,0,TIME",
+            "selector": "div.views-row > div.views-field > span.field-content > time.datetime",
+            "boundingRect": {
+              "top": 1970,
+              "bottom": 1984,
+              "left": 129,
+              "right": 219,
+              "width": 90,
+              "height": 14
+            },
+            "snippet": "<time datetime=\"2024-11-07T18:16:58-07:00\" class=\"datetime\">",
+            "nodeLabel": "November 7, 2024",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.section-blog",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 3783,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3783
+                  },
+                  "snippet": "<body class=\"section-blog layout-one-sidebar layout-sidebar-second page-view-ccd-blog p…\" data-once=\"tlibProcessed translation-processed search-processed accessible\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.section-blog"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-TIME",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,1,DIV,0,SPAN,0,TIME",
+            "selector": "div.views-row > div.views-field > span.field-content > time.datetime",
+            "boundingRect": {
+              "top": 2085,
+              "bottom": 2099,
+              "left": 129,
+              "right": 215,
+              "width": 86,
+              "height": 14
+            },
+            "snippet": "<time datetime=\"2024-10-16T11:14:20-06:00\" class=\"datetime\">",
+            "nodeLabel": "October 16, 2024",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.section-blog",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 3783,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3783
+                  },
+                  "snippet": "<body class=\"section-blog layout-one-sidebar layout-sidebar-second page-view-ccd-blog p…\" data-once=\"tlibProcessed translation-processed search-processed accessible\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.section-blog"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-TIME",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,1,DIV,0,SPAN,0,TIME",
+            "selector": "div.views-row > div.views-field > span.field-content > time.datetime",
+            "boundingRect": {
+              "top": 2200,
+              "bottom": 2214,
+              "left": 129,
+              "right": 191,
+              "width": 62,
+              "height": 14
+            },
+            "snippet": "<time datetime=\"2024-06-03T15:51:09-06:00\" class=\"datetime\">",
+            "nodeLabel": "June 3, 2024",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.section-blog",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 3783,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3783
+                  },
+                  "snippet": "<body class=\"section-blog layout-one-sidebar layout-sidebar-second page-view-ccd-blog p…\" data-once=\"tlibProcessed translation-processed search-processed accessible\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.section-blog"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-TIME",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,1,DIV,0,SPAN,0,TIME",
+            "selector": "div.views-row > div.views-field > span.field-content > time.datetime",
+            "boundingRect": {
+              "top": 2328,
+              "bottom": 2342,
+              "left": 129,
+              "right": 196,
+              "width": 67,
+              "height": 14
+            },
+            "snippet": "<time datetime=\"2024-05-28T15:53:51-06:00\" class=\"datetime\">",
+            "nodeLabel": "May 28, 2024",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.section-blog",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 3783,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3783
+                  },
+                  "snippet": "<body class=\"section-blog layout-one-sidebar layout-sidebar-second page-view-ccd-blog p…\" data-once=\"tlibProcessed translation-processed search-processed accessible\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+                  "nodeLabel": "body.section-blog"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,0,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 3220,
+              "bottom": 3244,
+              "left": 130,
+              "right": 154,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.facebook.com/CCDEdu\" target=\"_blank\" class=\"fab fa-lg fa-facebook-f nav-link fabfa-lgfa-facebook-f nav-link-https--www…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.facebook.com/CCDEdu\" aria-label=\"Facebook - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.facebook.com/ccdedu$facebook\">",
+            "nodeLabel": "Facebook",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-8-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-blog > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 3090,
+                    "bottom": 3634,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,1,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 3220,
+              "bottom": 3244,
+              "left": 162,
+              "right": 186,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.instagram.com/ccdedu\" target=\"_blank\" class=\"fab fa-lg fa-instagram nav-link fabfa-lgfa-instagram nav-link-https--wwwin…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.instagram.com/ccdedu\" aria-label=\"Instagram - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.instagram.com/ccdedu$instagram\">",
+            "nodeLabel": "Instagram",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-8-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-blog > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 3090,
+                    "bottom": 3634,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,2,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 3220,
+              "bottom": 3244,
+              "left": 194,
+              "right": 218,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://twitter.com/CCDedu\" target=\"_blank\" class=\"fab fa-lg fa-x-twitter nav-link fabfa-lgfa-x-twitter nav-link-https--twitt…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://twitter.com/CCDedu\" aria-label=\"Twitter - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://twitter.com/ccdedu$twitter\">",
+            "nodeLabel": "Twitter",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-8-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-blog > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 3090,
+                    "bottom": 3634,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,3,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 3220,
+              "bottom": 3244,
+              "left": 226,
+              "right": 250,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.linkedin.com/edu/school?id=20180&amp;trk=edu-cp-title\" target=\"_blank\" class=\"fab fa-lg fa-linkedin-in nav-link fabfa-lgfa-linkedin-in nav-link-https--w…\" aria-label=\"LinkedIn - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.linkedin.com/edu/school?id=20180&amp;trk=edu-cp-title$linkedin\">",
+            "nodeLabel": "LinkedIn",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-8-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-blog > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 3090,
+                    "bottom": 3634,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,4,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 3220,
+              "bottom": 3244,
+              "left": 258,
+              "right": 282,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.youtube.com/user/CCDEdu#_ga=2.237348096.1040111329.1609706321-…\" target=\"_blank\" class=\"fab fa-youtube nav-link fabfa-youtube nav-link-https--wwwyoutubecom-user-c…\" aria-label=\"Youtube - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.youtube.com/user/ccdedu#_ga=2.237348096.1040111329.1609706321-…\">",
+            "nodeLabel": "Youtube",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-8-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-blog > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 3090,
+                    "bottom": 3634,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 10
+  },
+  {
+    "id": "target-size",
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+            "selector": "div.view > div.view-content > div.views-summary > a",
+            "boundingRect": {
+              "top": 2529,
+              "bottom": 2545,
+              "left": 12,
+              "right": 56,
+              "width": 44,
+              "height": 16
+            },
+            "snippet": "<a href=\"/blog/1256/2024\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2024\">",
+            "nodeLabel": "2024",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (44.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2550,
+                    "bottom": 2566,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2023\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2023\">",
+                  "nodeLabel": "2023"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,A",
+            "selector": "div.view > div.view-content > div.views-summary > a",
+            "boundingRect": {
+              "top": 2550,
+              "bottom": 2566,
+              "left": 12,
+              "right": 56,
+              "width": 44,
+              "height": 16
+            },
+            "snippet": "<a href=\"/blog/1256/2023\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2023\">",
+            "nodeLabel": "2023",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (44.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-13-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2529,
+                    "bottom": 2545,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2024\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2024\">",
+                  "nodeLabel": "2024"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-15-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2572,
+                    "bottom": 2588,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2022\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2022\">",
+                  "nodeLabel": "2022"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+            "selector": "div.view > div.view-content > div.views-summary > a",
+            "boundingRect": {
+              "top": 2572,
+              "bottom": 2588,
+              "left": 12,
+              "right": 56,
+              "width": 44,
+              "height": 16
+            },
+            "snippet": "<a href=\"/blog/1256/2022\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2022\">",
+            "nodeLabel": "2022",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (44.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-14-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2550,
+                    "bottom": 2566,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2023\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2023\">",
+                  "nodeLabel": "2023"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-16-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2593,
+                    "bottom": 2609,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2021\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2021\">",
+                  "nodeLabel": "2021"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-16-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,A",
+            "selector": "div.view > div.view-content > div.views-summary > a",
+            "boundingRect": {
+              "top": 2593,
+              "bottom": 2609,
+              "left": 12,
+              "right": 56,
+              "width": 44,
+              "height": 16
+            },
+            "snippet": "<a href=\"/blog/1256/2021\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2021\">",
+            "nodeLabel": "2021",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (44.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-15-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2572,
+                    "bottom": 2588,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2022\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2022\">",
+                  "nodeLabel": "2022"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-17-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2615,
+                    "bottom": 2631,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2020\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2020\">",
+                  "nodeLabel": "2020"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-17-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,A",
+            "selector": "div.view > div.view-content > div.views-summary > a",
+            "boundingRect": {
+              "top": 2615,
+              "bottom": 2631,
+              "left": 12,
+              "right": 56,
+              "width": 44,
+              "height": 16
+            },
+            "snippet": "<a href=\"/blog/1256/2020\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2020\">",
+            "nodeLabel": "2020",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (44.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-16-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2593,
+                    "bottom": 2609,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2021\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2021\">",
+                  "nodeLabel": "2021"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2636,
+                    "bottom": 2652,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2019\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2019\">",
+                  "nodeLabel": "2019"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-18-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,A",
+            "selector": "div.view > div.view-content > div.views-summary > a",
+            "boundingRect": {
+              "top": 2636,
+              "bottom": 2652,
+              "left": 12,
+              "right": 56,
+              "width": 44,
+              "height": 16
+            },
+            "snippet": "<a href=\"/blog/1256/2019\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2019\">",
+            "nodeLabel": "2019",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (44.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-17-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2615,
+                    "bottom": 2631,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2020\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2020\">",
+                  "nodeLabel": "2020"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-19-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2658,
+                    "bottom": 2674,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2018\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2018\">",
+                  "nodeLabel": "2018"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-19-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,A",
+            "selector": "div.view > div.view-content > div.views-summary > a",
+            "boundingRect": {
+              "top": 2658,
+              "bottom": 2674,
+              "left": 12,
+              "right": 56,
+              "width": 44,
+              "height": 16
+            },
+            "snippet": "<a href=\"/blog/1256/2018\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2018\">",
+            "nodeLabel": "2018",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (44.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-18-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2636,
+                    "bottom": 2652,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2019\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2019\">",
+                  "nodeLabel": "2019"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-20-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2679,
+                    "bottom": 2695,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2017\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2017\">",
+                  "nodeLabel": "2017"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-20-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,A",
+            "selector": "div.view > div.view-content > div.views-summary > a",
+            "boundingRect": {
+              "top": 2679,
+              "bottom": 2695,
+              "left": 12,
+              "right": 56,
+              "width": 44,
+              "height": 16
+            },
+            "snippet": "<a href=\"/blog/1256/2017\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2017\">",
+            "nodeLabel": "2017",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (44.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-19-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2658,
+                    "bottom": 2674,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2018\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2018\">",
+                  "nodeLabel": "2018"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-21-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,8,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2701,
+                    "bottom": 2717,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2016\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2016\">",
+                  "nodeLabel": "2016"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-21-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,8,DIV,0,A",
+            "selector": "div.view > div.view-content > div.views-summary > a",
+            "boundingRect": {
+              "top": 2701,
+              "bottom": 2717,
+              "left": 12,
+              "right": 56,
+              "width": 44,
+              "height": 16
+            },
+            "snippet": "<a href=\"/blog/1256/2016\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2016\">",
+            "nodeLabel": "2016",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (44.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-20-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2679,
+                    "bottom": 2695,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2017\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2017\">",
+                  "nodeLabel": "2017"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-22-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2722,
+                    "bottom": 2738,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2015\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2015\">",
+                  "nodeLabel": "2015"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-22-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,A",
+            "selector": "div.view > div.view-content > div.views-summary > a",
+            "boundingRect": {
+              "top": 2722,
+              "bottom": 2738,
+              "left": 12,
+              "right": 56,
+              "width": 44,
+              "height": 16
+            },
+            "snippet": "<a href=\"/blog/1256/2015\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2015\">",
+            "nodeLabel": "2015",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (44.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-21-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,8,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2701,
+                    "bottom": 2717,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2016\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2016\">",
+                  "nodeLabel": "2016"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-23-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,10,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2744,
+                    "bottom": 2760,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2014\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2014\">",
+                  "nodeLabel": "2014"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-23-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,10,DIV,0,A",
+            "selector": "div.view > div.view-content > div.views-summary > a",
+            "boundingRect": {
+              "top": 2744,
+              "bottom": 2760,
+              "left": 12,
+              "right": 56,
+              "width": 44,
+              "height": 16
+            },
+            "snippet": "<a href=\"/blog/1256/2014\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2014\">",
+            "nodeLabel": "2014",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (44.3px by 16px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-22-A",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,0,DIV,1,ASIDE,0,SECTION,1,DIV,0,DIV,4,DIV,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,A",
+                  "selector": "div.view > div.view-content > div.views-summary > a",
+                  "boundingRect": {
+                    "top": 2722,
+                    "bottom": 2738,
+                    "left": 12,
+                    "right": 56,
+                    "width": 44,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"/blog/1256/2015\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.ccd.edu/blog/1256/2015\">",
+                  "nodeLabel": "2015"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag22aa",
+          "wcag258"
+        ]
+      }
+    },
+    "errorCount": 11
+  }
+]

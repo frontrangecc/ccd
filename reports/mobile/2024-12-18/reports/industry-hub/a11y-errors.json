@@ -1,0 +1,621 @@
+[
+  {
+    "id": "aria-prohibited-attr",
+    "title": "Elements use prohibited ARIA attributes",
+    "description": "Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies. [Learn more about prohibited ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,1,A",
+            "selector": "div.main-wrapper > main > section#content > a#main-content",
+            "boundingRect": {
+              "top": 60,
+              "bottom": 60,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a id=\"main-content\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,0,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 2127,
+              "bottom": 2151,
+              "left": 130,
+              "right": 154,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.facebook.com/CCDEdu\" target=\"_blank\" class=\"fab fa-lg fa-facebook-f nav-link fabfa-lgfa-facebook-f nav-link-https--www…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.facebook.com/CCDEdu\" aria-label=\"Facebook - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.facebook.com/ccdedu$facebook\">",
+            "nodeLabel": "Facebook",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.layout-no-sidebars > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 1998,
+                    "bottom": 2541,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,1,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 2127,
+              "bottom": 2151,
+              "left": 162,
+              "right": 186,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.instagram.com/ccdedu\" target=\"_blank\" class=\"fab fa-lg fa-instagram nav-link fabfa-lgfa-instagram nav-link-https--wwwin…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.instagram.com/ccdedu\" aria-label=\"Instagram - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.instagram.com/ccdedu$instagram\">",
+            "nodeLabel": "Instagram",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.layout-no-sidebars > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 1998,
+                    "bottom": 2541,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,2,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 2127,
+              "bottom": 2151,
+              "left": 194,
+              "right": 218,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://twitter.com/CCDedu\" target=\"_blank\" class=\"fab fa-lg fa-x-twitter nav-link fabfa-lgfa-x-twitter nav-link-https--twitt…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://twitter.com/CCDedu\" aria-label=\"Twitter - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://twitter.com/ccdedu$twitter\">",
+            "nodeLabel": "Twitter",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.layout-no-sidebars > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 1998,
+                    "bottom": 2541,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,3,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 2127,
+              "bottom": 2151,
+              "left": 226,
+              "right": 250,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.linkedin.com/edu/school?id=20180&amp;trk=edu-cp-title\" target=\"_blank\" class=\"fab fa-lg fa-linkedin-in nav-link fabfa-lgfa-linkedin-in nav-link-https--w…\" aria-label=\"LinkedIn - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.linkedin.com/edu/school?id=20180&amp;trk=edu-cp-title$linkedin\">",
+            "nodeLabel": "LinkedIn",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.layout-no-sidebars > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 1998,
+                    "bottom": 2541,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,4,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 2127,
+              "bottom": 2151,
+              "left": 258,
+              "right": 282,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.youtube.com/user/CCDEdu#_ga=2.237348096.1040111329.1609706321-…\" target=\"_blank\" class=\"fab fa-youtube nav-link fabfa-youtube nav-link-https--wwwyoutubecom-user-c…\" aria-label=\"Youtube - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.youtube.com/user/ccdedu#_ga=2.237348096.1040111329.1609706321-…\">",
+            "nodeLabel": "Youtube",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.layout-no-sidebars > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 1998,
+                    "bottom": 2541,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nLinkedIn\nYoutube\n\nCherry Creek B…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 5
+  },
+  {
+    "id": "target-size",
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,2,UL,0,LI,0,A",
+            "selector": "div#tab-6213-0-pane > ul > li > a",
+            "boundingRect": {
+              "top": 1281,
+              "bottom": 1300,
+              "left": 56,
+              "right": 258,
+              "width": 202,
+              "height": 20
+            },
+            "snippet": "<a href=\"mailto:everett.driscoll@ccd.edu?subject=Subscribe%20to%20CCD%20Industry%20…\" aria-label=\"send an email to everett.driscoll@ccd.edu?subject=Subscribe%20to%20CCD%20I…\" data-uw-rm-vglnk=\"\" uw-rm-vague-link-id=\"mailto:everett.driscoll@ccd.edu?subject=subscribe%20to%20ccd%20industry%20…\">",
+            "nodeLabel": "Quarterly Newsletter Signup",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (201.8px by 19.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.6px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.layout__region > div.paragraph-id-6213 > div.tab-content > div#tab-6213-0-pane",
+                  "boundingRect": {
+                    "top": 1153,
+                    "bottom": 1629,
+                    "left": 24,
+                    "right": 388,
+                    "width": 364,
+                    "height": 476
+                  },
+                  "snippet": "<div class=\"tab-pane fade show active\" id=\"tab-6213-0-pane\" role=\"tabpanel\" aria-labelledby=\"tab-6213-0\" tabindex=\"0\">",
+                  "nodeLabel": "Hire Students & Interns \n\nGet in front of students at the numerous career and n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,2,UL,1,LI,0,A",
+            "selector": "div#tab-6213-0-pane > ul > li > a",
+            "boundingRect": {
+              "top": 1314,
+              "bottom": 1334,
+              "left": 56,
+              "right": 122,
+              "width": 66,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://joinhandshake.com/employers/?mrasn=1326362.1643767.0iK1J7qz\" target=\"_blank\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://joinhandshake.com/employers/?mrasn=1326362.1643767.0iK1J7qz\" aria-label=\"Post Jobs - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://joinhandshake.com/employers/?mrasn=1326362.1643767.0ik1j7qz$postjo…\">",
+            "nodeLabel": "Post Jobs",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (66.3px by 19.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.6px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.layout__region > div.paragraph-id-6213 > div.tab-content > div#tab-6213-0-pane",
+                  "boundingRect": {
+                    "top": 1153,
+                    "bottom": 1629,
+                    "left": 24,
+                    "right": 388,
+                    "width": 364,
+                    "height": 476
+                  },
+                  "snippet": "<div class=\"tab-pane fade show active\" id=\"tab-6213-0-pane\" role=\"tabpanel\" aria-labelledby=\"tab-6213-0\" tabindex=\"0\">",
+                  "nodeLabel": "Hire Students & Interns \n\nGet in front of students at the numerous career and n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,2,UL,2,LI,0,A",
+            "selector": "div#tab-6213-0-pane > ul > li > a",
+            "boundingRect": {
+              "top": 1348,
+              "bottom": 1368,
+              "left": 56,
+              "right": 265,
+              "width": 209,
+              "height": 20
+            },
+            "snippet": "<a href=\"mailto:everett.driscoll@ccd.edu?subject=Post%20jobs%20on%20Handshake\" aria-label=\"send an email to everett.driscoll@ccd.edu?subject=Post%20jobs%20on%20Hands…\" data-uw-rm-vglnk=\"\" uw-rm-vague-link-id=\"mailto:everett.driscoll@ccd.edu?subject=post%20jobs%20on%20handshake$send …\">",
+            "nodeLabel": "Talk to our Industry Navigator",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (208.5px by 19.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.6px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.layout__region > div.paragraph-id-6213 > div.tab-content > div#tab-6213-0-pane",
+                  "boundingRect": {
+                    "top": 1153,
+                    "bottom": 1629,
+                    "left": 24,
+                    "right": 388,
+                    "width": 364,
+                    "height": 476
+                  },
+                  "snippet": "<div class=\"tab-pane fade show active\" id=\"tab-6213-0-pane\" role=\"tabpanel\" aria-labelledby=\"tab-6213-0\" tabindex=\"0\">",
+                  "nodeLabel": "Hire Students & Interns \n\nGet in front of students at the numerous career and n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,5,UL,0,LI,0,A",
+            "selector": "div#tab-6213-0-pane > ul > li > a",
+            "boundingRect": {
+              "top": 1572,
+              "bottom": 1592,
+              "left": 56,
+              "right": 213,
+              "width": 157,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://joinhandshake.com/employers/?mrasn=1326362.1643767.0iK1J7qz\" target=\"_blank\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://joinhandshake.com/employers/?mrasn=1326362.1643767.0iK1J7qz\" aria-label=\"Promote an Internship - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://joinhandshake.com/employers/?mrasn=1326362.1643767.0ik1j7qz$promot…\">",
+            "nodeLabel": "Promote an Internship",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (157px by 19.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.6px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.layout__region > div.paragraph-id-6213 > div.tab-content > div#tab-6213-0-pane",
+                  "boundingRect": {
+                    "top": 1153,
+                    "bottom": 1629,
+                    "left": 24,
+                    "right": 388,
+                    "width": 364,
+                    "height": 476
+                  },
+                  "snippet": "<div class=\"tab-pane fade show active\" id=\"tab-6213-0-pane\" role=\"tabpanel\" aria-labelledby=\"tab-6213-0\" tabindex=\"0\">",
+                  "nodeLabel": "Hire Students & Interns \n\nGet in front of students at the numerous career and n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,5,UL,1,LI,0,A",
+            "selector": "div#tab-6213-0-pane > ul > li > a",
+            "boundingRect": {
+              "top": 1606,
+              "bottom": 1626,
+              "left": 56,
+              "right": 166,
+              "width": 110,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://forms.office.com/pages/responsepage.aspx?id=6rEiKgp4PUqxt85fmsRTaK…\" target=\"_blank\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://forms.office.com/pages/responsepage.aspx?id=6rEiKgp4PUqxt85fmsRTaK…\" aria-label=\"Start a Program - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://forms.office.com/pages/responsepage.aspx?id=6reikgp4puqxt85fmsrtak…\">",
+            "nodeLabel": "Start a Program",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (110px by 19.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19.6px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-9-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.layout__region > div.paragraph-id-6213 > div.tab-content > div#tab-6213-0-pane",
+                  "boundingRect": {
+                    "top": 1153,
+                    "bottom": 1629,
+                    "left": 24,
+                    "right": 388,
+                    "width": 364,
+                    "height": 476
+                  },
+                  "snippet": "<div class=\"tab-pane fade show active\" id=\"tab-6213-0-pane\" role=\"tabpanel\" aria-labelledby=\"tab-6213-0\" tabindex=\"0\">",
+                  "nodeLabel": "Hire Students & Interns \n\nGet in front of students at the numerous career and n…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag22aa",
+          "wcag258"
+        ]
+      }
+    },
+    "errorCount": 5
+  },
+  {
+    "id": "label-content-name-mismatch",
+    "title": "Elements with visible text labels do not have matching accessible names.",
+    "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.10/label-content-name-mismatch).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,2,UL,0,LI,0,A",
+            "selector": "div#tab-6213-0-pane > ul > li > a",
+            "boundingRect": {
+              "top": 1281,
+              "bottom": 1300,
+              "left": 56,
+              "right": 258,
+              "width": 202,
+              "height": 20
+            },
+            "snippet": "<a href=\"mailto:everett.driscoll@ccd.edu?subject=Subscribe%20to%20CCD%20Industry%20…\" aria-label=\"send an email to everett.driscoll@ccd.edu?subject=Subscribe%20to%20CCD%20I…\" data-uw-rm-vglnk=\"\" uw-rm-vague-link-id=\"mailto:everett.driscoll@ccd.edu?subject=subscribe%20to%20ccd%20industry%20…\">",
+            "nodeLabel": "Quarterly Newsletter Signup",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,2,DIV,0,MAIN,0,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,2,UL,2,LI,0,A",
+            "selector": "div#tab-6213-0-pane > ul > li > a",
+            "boundingRect": {
+              "top": 1348,
+              "bottom": 1368,
+              "left": 56,
+              "right": 265,
+              "width": 209,
+              "height": 20
+            },
+            "snippet": "<a href=\"mailto:everett.driscoll@ccd.edu?subject=Post%20jobs%20on%20Handshake\" aria-label=\"send an email to everett.driscoll@ccd.edu?subject=Post%20jobs%20on%20Hands…\" data-uw-rm-vglnk=\"\" uw-rm-vague-link-id=\"mailto:everett.driscoll@ccd.edu?subject=post%20jobs%20on%20handshake$send …\">",
+            "nodeLabel": "Talk to our Industry Navigator",
+            "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.semantics",
+          "wcag21a",
+          "wcag253",
+          "EN-301-549",
+          "EN-9.2.5.3",
+          "experimental"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
