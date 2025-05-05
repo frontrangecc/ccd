@@ -1,0 +1,13 @@
+{
+  "color-contrast": 1665,
+  "target-size": 805,
+  "aria-prohibited-attr": 276,
+  "aria-required-children": 108,
+  "image-alt": 23,
+  "heading-order": 15,
+  "label-content-name-mismatch": 10,
+  "aria-allowed-attr": 5,
+  "td-has-header": 2,
+  "link-name": 1,
+  "table-fake-caption": 1
+}
