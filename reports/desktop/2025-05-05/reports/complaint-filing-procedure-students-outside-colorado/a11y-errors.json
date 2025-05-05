@@ -1,0 +1,1376 @@
+[
+  {
+    "id": "aria-prohibited-attr",
+    "title": "Elements use prohibited ARIA attributes",
+    "description": "Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies. [Learn more about prohibited ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-A",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,1,A",
+            "selector": "div.main-wrapper > main > section#content > a#main-content",
+            "boundingRect": {
+              "top": 214,
+              "bottom": 214,
+              "left": 147,
+              "right": 147,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a id=\"main-content\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,0,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 617,
+              "bottom": 677,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "ALABAMA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,1,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 677,
+              "bottom": 736,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "ALASKA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,2,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 736,
+              "bottom": 780,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "ARIZONA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,3,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 780,
+              "bottom": 823,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "ARKANSAS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,4,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 823,
+              "bottom": 882,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "CALIFORNIA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-6-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,5,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 882,
+              "bottom": 926,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "COLORADO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,6,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 926,
+              "bottom": 985,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "CONNECTICUT",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,7,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 985,
+              "bottom": 1044,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "DELAWARE",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,8,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1044,
+              "bottom": 1120,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 76
+            },
+            "snippet": "<th>",
+            "nodeLabel": "\nDISTRICT OF COLUMBIA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,9,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1120,
+              "bottom": 1180,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "FLORIDA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,10,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1180,
+              "bottom": 1239,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "GEORGIA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,11,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1239,
+              "bottom": 1283,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "HAWAII",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,12,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1283,
+              "bottom": 1342,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "IDAHO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-14-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,13,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1342,
+              "bottom": 1385,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "ILLINOIS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-15-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,14,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1385,
+              "bottom": 1429,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "INDIANA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-16-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,15,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1429,
+              "bottom": 1488,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "IOWA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-17-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,16,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1488,
+              "bottom": 1531,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "KANSAS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-18-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,17,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1531,
+              "bottom": 1591,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "KENTUCKY",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-19-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,18,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1591,
+              "bottom": 1650,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "LOUISIANA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-20-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,19,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1650,
+              "bottom": 1710,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "MAINE",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-21-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,20,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1710,
+              "bottom": 1769,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "MARYLAND",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-22-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,21,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1769,
+              "bottom": 1812,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "MASSACHUSETTS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-23-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,22,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1812,
+              "bottom": 1856,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "MICHIGAN",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-24-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,23,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1856,
+              "bottom": 1915,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "MINNESOTA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-25-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,24,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1915,
+              "bottom": 1974,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "MISSISSIPPI",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-26-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,25,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 1974,
+              "bottom": 2082,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 107
+            },
+            "snippet": "<th>",
+            "nodeLabel": "MISSOURI",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-27-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,26,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2082,
+              "bottom": 2141,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "MONTANA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-28-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,27,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2141,
+              "bottom": 2201,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "NEBRASKA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-29-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,28,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2201,
+              "bottom": 2244,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "NEVADA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-30-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,29,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2244,
+              "bottom": 2319,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 75
+            },
+            "snippet": "<th>",
+            "nodeLabel": "NEW HAMPSHIRE",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-31-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,30,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2319,
+              "bottom": 2379,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "NEW JERSEY",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-32-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,31,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2379,
+              "bottom": 2438,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "NEW MEXICO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-33-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,32,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2438,
+              "bottom": 2481,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "NEW YORK",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-34-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,33,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2481,
+              "bottom": 2589,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 107
+            },
+            "snippet": "<th>",
+            "nodeLabel": "NORTH CAROLINA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-35-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,34,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2589,
+              "bottom": 2648,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "NORTH DAKOTA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-36-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,35,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2648,
+              "bottom": 2708,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "OHIO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-37-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,36,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2708,
+              "bottom": 2767,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "OKLAHOMA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-38-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,37,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2767,
+              "bottom": 2826,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "OREGON",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-39-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,38,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2826,
+              "bottom": 2886,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "PENNSYLVANIA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-40-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,39,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2886,
+              "bottom": 2961,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 75
+            },
+            "snippet": "<th>",
+            "nodeLabel": "PUERTO RICO",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-41-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,40,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 2961,
+              "bottom": 3020,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "RHODE ISLAND",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-42-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,41,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 3020,
+              "bottom": 3064,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "SOUTH CAROLINA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-43-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,42,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 3064,
+              "bottom": 3123,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "SOUTH DAKOTA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-44-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,43,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 3123,
+              "bottom": 3183,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "TENNESSEE",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-45-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,44,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 3183,
+              "bottom": 3242,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "TEXAS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-46-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,45,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 3242,
+              "bottom": 3301,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "UTAH",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-47-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,46,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 3301,
+              "bottom": 3345,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "VERMONT",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-48-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,47,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 3345,
+              "bottom": 3388,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "VIRGINIA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-49-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,48,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 3388,
+              "bottom": 3431,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "WASHINGTON",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-50-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,49,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 3431,
+              "bottom": 3491,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 59
+            },
+            "snippet": "<th>",
+            "nodeLabel": "WEST VIRGINIA",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-51-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,50,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 3491,
+              "bottom": 3534,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "WISCONSIN",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-52-TH",
+            "path": "1,HTML,1,BODY,13,DIV,1,DIV,2,DIV,0,MAIN,1,SECTION,2,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,TABLE,1,TBODY,51,TR,0,TH",
+            "selector": "table > tbody > tr > th",
+            "boundingRect": {
+              "top": 3534,
+              "bottom": 3578,
+              "left": 172,
+              "right": 336,
+              "width": 165,
+              "height": 43
+            },
+            "snippet": "<th>",
+            "nodeLabel": "WYOMING",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #ffffff, background color: #bbbbbb, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-53-A",
+            "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,0,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 4364,
+              "bottom": 4388,
+              "left": 102,
+              "right": 126,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.facebook.com/CCDEdu\" target=\"_blank\" class=\"fab fa-lg fa-facebook-f nav-link fabfa-lgfa-facebook-f nav-link-https--www…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.facebook.com/CCDEdu\" aria-label=\"Facebook - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.facebook.com/ccdedu$facebook\">",
+            "nodeLabel": "Facebook",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-54-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.layout-one-sidebar > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 4169,
+                    "bottom": 4640,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 471
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-55-A",
+            "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,1,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 4364,
+              "bottom": 4388,
+              "left": 134,
+              "right": 158,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.instagram.com/ccdedu\" target=\"_blank\" class=\"fab fa-lg fa-instagram nav-link fabfa-lgfa-instagram nav-link-https--wwwin…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.instagram.com/ccdedu\" aria-label=\"Instagram - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.instagram.com/ccdedu$instagram\">",
+            "nodeLabel": "Instagram",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-54-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.layout-one-sidebar > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 4169,
+                    "bottom": 4640,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 471
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-56-A",
+            "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,2,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 4364,
+              "bottom": 4388,
+              "left": 166,
+              "right": 190,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://twitter.com/CCDedu\" target=\"_blank\" class=\"fab fa-lg fa-x-twitter nav-link fabfa-lgfa-x-twitter nav-link-https--twitt…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://twitter.com/CCDedu\" aria-label=\"Twitter - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://twitter.com/ccdedu$twitter\">",
+            "nodeLabel": "Twitter",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-54-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.layout-one-sidebar > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 4169,
+                    "bottom": 4640,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 471
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-57-A",
+            "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,3,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 4364,
+              "bottom": 4388,
+              "left": 198,
+              "right": 222,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://bsky.app/profile/ccdedu.bsky.social\" target=\"_blank\" class=\"fab fa-bluesky nav-link fabfa-bluesky nav-link-https--bskyapp-profile-ccde…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://bsky.app/profile/ccdedu.bsky.social\" aria-label=\"Bluesky - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://bsky.app/profile/ccdedu.bsky.social$bluesky\">",
+            "nodeLabel": "Bluesky",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-54-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.layout-one-sidebar > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 4169,
+                    "bottom": 4640,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 471
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-58-A",
+            "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,4,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 4364,
+              "bottom": 4388,
+              "left": 230,
+              "right": 254,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.linkedin.com/edu/school?id=20180&amp;trk=edu-cp-title\" target=\"_blank\" class=\"fab fa-lg fa-linkedin-in nav-link fabfa-lgfa-linkedin-in nav-link-https--w…\" aria-label=\"LinkedIn - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.linkedin.com/edu/school?id=20180&amp;trk=edu-cp-title$linkedin\">",
+            "nodeLabel": "LinkedIn",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-54-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.layout-one-sidebar > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 4169,
+                    "bottom": 4640,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 471
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-59-A",
+            "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,5,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 4364,
+              "bottom": 4388,
+              "left": 262,
+              "right": 286,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.tiktok.com/@ccdedu\" target=\"_blank\" class=\"fab fa-tiktok nav-link fabfa-tiktok nav-link-https--wwwtiktokcom-ccdedu\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.tiktok.com/@ccdedu\" aria-label=\"TikTok - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.tiktok.com/@ccdedu$tiktok\">",
+            "nodeLabel": "TikTok",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-54-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.layout-one-sidebar > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 4169,
+                    "bottom": 4640,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 471
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-60-A",
+            "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,6,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 4364,
+              "bottom": 4388,
+              "left": 294,
+              "right": 318,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.youtube.com/user/CCDEdu#_ga=2.237348096.1040111329.1609706321-…\" target=\"_blank\" class=\"fab fa-youtube nav-link fabfa-youtube nav-link-https--wwwyoutubecom-user-c…\" aria-label=\"Youtube - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.youtube.com/user/ccdedu#_ga=2.237348096.1040111329.1609706321-…\">",
+            "nodeLabel": "Youtube",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-54-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.layout-one-sidebar > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 4169,
+                    "bottom": 4640,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 471
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 59
+  }
+]

@@ -1,1 +1,14 @@
-{}
+{
+  "color-contrast": 1608,
+  "target-size": 1220,
+  "aria-prohibited-attr": 287,
+  "aria-required-children": 39,
+  "heading-order": 33,
+  "image-alt": 31,
+  "aria-allowed-attr": 15,
+  "label-content-name-mismatch": 6,
+  "aria-hidden-focus": 2,
+  "list": 2,
+  "aria-required-parent": 1,
+  "listitem": 1
+}
