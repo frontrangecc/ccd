@@ -1,0 +1,738 @@
+[
+  {
+    "id": "aria-prohibited-attr",
+    "title": "Elements use prohibited ARIA attributes",
+    "description": "Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies. [Learn more about prohibited ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-0-A",
+            "path": "1,HTML,1,BODY,12,DIV,1,DIV,3,DIV,0,MAIN,1,SECTION,1,A",
+            "selector": "div.main-wrapper > main > section#content > a#main-content",
+            "boundingRect": {
+              "top": 198,
+              "bottom": 198,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a id=\"main-content\" aria-label=\"Open this option\" data-uw-rm-empty-ctrl=\"\" data-uw-rm-kbnav=\"anohref\" tabindex=\"0\">",
+            "nodeLabel": "Open this option",
+            "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a a with no valid role attribute."
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more about roles and required children elements](https://dequeuniversity.com/rules/axe/4.10/aria-required-children).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-1-UL",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL",
+            "selector": "div.view-content > div.slick > div#slick-8b1bcf1945e > ul.slick-dots",
+            "boundingRect": {
+              "top": 2552,
+              "bottom": 2575,
+              "left": 12,
+              "right": 82,
+              "width": 70,
+              "height": 23
+            },
+            "snippet": "<ul class=\"slick-dots\" style=\"\" role=\"tablist\">",
+            "nodeLabel": "1234",
+            "explanation": "Fix any of the following:\n  Element has children which are not allowed: [role=button]"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-BUTTON",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,0,BUTTON",
+                  "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li.slick-active > button#slick-slide-control10",
+                  "boundingRect": {
+                    "top": 2556,
+                    "bottom": 2566,
+                    "left": 12,
+                    "right": 22,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control10\" aria-controls=\"slick-slide10\" aria-label=\"Carousel Slide 1\" aria-pressed=\"true\" aria-current=\"true\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+                  "nodeLabel": "1"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-BUTTON",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,1,LI,0,BUTTON",
+                  "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li > button#slick-slide-control11",
+                  "boundingRect": {
+                    "top": 2556,
+                    "bottom": 2566,
+                    "left": 32,
+                    "right": 42,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control11\" aria-controls=\"slick-slide11\" aria-label=\"Carousel Slide 2\" aria-pressed=\"false\" aria-current=\"false\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+                  "nodeLabel": "2"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-4-BUTTON",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,2,LI,0,BUTTON",
+                  "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li > button#slick-slide-control12",
+                  "boundingRect": {
+                    "top": 2556,
+                    "bottom": 2566,
+                    "left": 52,
+                    "right": 62,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control12\" aria-controls=\"slick-slide12\" aria-label=\"Carousel Slide 3\" aria-pressed=\"false\" aria-current=\"false\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+                  "nodeLabel": "3"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-5-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,0,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 2999,
+              "bottom": 3023,
+              "left": 98,
+              "right": 122,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.facebook.com/CCDEdu\" target=\"_blank\" class=\"fab fa-lg fa-facebook-f nav-link fabfa-lgfa-facebook-f nav-link-https--www…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.facebook.com/CCDEdu\" aria-label=\"Facebook - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.facebook.com/ccdedu$facebook\">",
+            "nodeLabel": "Facebook",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-organization > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 2870,
+                    "bottom": 3413,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-7-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,1,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 2999,
+              "bottom": 3023,
+              "left": 130,
+              "right": 154,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.instagram.com/ccdedu\" target=\"_blank\" class=\"fab fa-lg fa-instagram nav-link fabfa-lgfa-instagram nav-link-https--wwwin…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.instagram.com/ccdedu\" aria-label=\"Instagram - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.instagram.com/ccdedu$instagram\">",
+            "nodeLabel": "Instagram",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-organization > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 2870,
+                    "bottom": 3413,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-8-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,2,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 2999,
+              "bottom": 3023,
+              "left": 162,
+              "right": 186,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://twitter.com/CCDedu\" target=\"_blank\" class=\"fab fa-lg fa-x-twitter nav-link fabfa-lgfa-x-twitter nav-link-https--twitt…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://twitter.com/CCDedu\" aria-label=\"Twitter - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://twitter.com/ccdedu$twitter\">",
+            "nodeLabel": "Twitter",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-organization > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 2870,
+                    "bottom": 3413,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-9-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,3,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 2999,
+              "bottom": 3023,
+              "left": 194,
+              "right": 218,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://bsky.app/profile/ccdedu.bsky.social\" target=\"_blank\" class=\"fab fa-bluesky nav-link fabfa-bluesky nav-link-https--bskyapp-profile-ccde…\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://bsky.app/profile/ccdedu.bsky.social\" aria-label=\"Bluesky - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://bsky.app/profile/ccdedu.bsky.social$bluesky\">",
+            "nodeLabel": "Bluesky",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-organization > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 2870,
+                    "bottom": 3413,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-10-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,4,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 2999,
+              "bottom": 3023,
+              "left": 226,
+              "right": 250,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.linkedin.com/edu/school?id=20180&amp;trk=edu-cp-title\" target=\"_blank\" class=\"fab fa-lg fa-linkedin-in nav-link fabfa-lgfa-linkedin-in nav-link-https--w…\" aria-label=\"LinkedIn - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.linkedin.com/edu/school?id=20180&amp;trk=edu-cp-title$linkedin\">",
+            "nodeLabel": "LinkedIn",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-organization > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 2870,
+                    "bottom": 3413,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-11-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,5,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 2999,
+              "bottom": 3023,
+              "left": 258,
+              "right": 282,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.tiktok.com/@ccdedu\" target=\"_blank\" class=\"fab fa-tiktok nav-link fabfa-tiktok nav-link-https--wwwtiktokcom-ccdedu\" data-uw-rm-brl=\"PR\" data-uw-original-href=\"https://www.tiktok.com/@ccdedu\" aria-label=\"TikTok - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.tiktok.com/@ccdedu$tiktok\">",
+            "nodeLabel": "TikTok",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-organization > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 2870,
+                    "bottom": 3413,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-12-A",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,1,NAV,1,UL,6,LI,0,A",
+            "selector": "nav#block-system-menu-block-menu-new-footer-social-menu > ul.clearfix > li.nav-item > a.fab",
+            "boundingRect": {
+              "top": 2999,
+              "bottom": 3023,
+              "left": 290,
+              "right": 314,
+              "width": 24,
+              "height": 24
+            },
+            "snippet": "<a href=\"https://www.youtube.com/user/CCDEdu#_ga=2.237348096.1040111329.1609706321-…\" target=\"_blank\" class=\"fab fa-youtube nav-link fabfa-youtube nav-link-https--wwwyoutubecom-user-c…\" aria-label=\"Youtube - open in a new tab\" data-uw-rm-ext-link=\"\" uw-rm-external-link-id=\"https://www.youtube.com/user/ccdedu#_ga=2.237348096.1040111329.1609706321-…\">",
+            "nodeLabel": "Youtube",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #0079c0, background color: #313131, font size: 0.0pt (0px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-6-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,1,DIV",
+                  "selector": "body.section-organization > div.dialog-off-canvas-main-canvas > footer > div.footer-wrapper",
+                  "boundingRect": {
+                    "top": 2870,
+                    "bottom": 3413,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 543
+                  },
+                  "snippet": "<div class=\"footer-wrapper\">",
+                  "nodeLabel": "CCD SOCIAL CHANNELS\nFacebook\nInstagram\nTwitter\nBluesky\nLinkedIn\nTikTok\nYoutube\n…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "target-size",
+    "title": "Touch targets do not have sufficient size or spacing.",
+    "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.10/target-size).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "valueType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "valueType": "node"
+          },
+          "label": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-2-BUTTON",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,0,BUTTON",
+            "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li.slick-active > button#slick-slide-control10",
+            "boundingRect": {
+              "top": 2556,
+              "bottom": 2566,
+              "left": 12,
+              "right": 22,
+              "width": 10,
+              "height": 10
+            },
+            "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control10\" aria-controls=\"slick-slide10\" aria-label=\"Carousel Slide 1\" aria-pressed=\"true\" aria-current=\"true\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+            "nodeLabel": "1",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (10px by 10px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-BUTTON",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,1,LI,0,BUTTON",
+                  "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li > button#slick-slide-control11",
+                  "boundingRect": {
+                    "top": 2556,
+                    "bottom": 2566,
+                    "left": 32,
+                    "right": 42,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control11\" aria-controls=\"slick-slide11\" aria-label=\"Carousel Slide 2\" aria-pressed=\"false\" aria-current=\"false\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+                  "nodeLabel": "2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-3-BUTTON",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,1,LI,0,BUTTON",
+            "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li > button#slick-slide-control11",
+            "boundingRect": {
+              "top": 2556,
+              "bottom": 2566,
+              "left": 32,
+              "right": 42,
+              "width": 10,
+              "height": 10
+            },
+            "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control11\" aria-controls=\"slick-slide11\" aria-label=\"Carousel Slide 2\" aria-pressed=\"false\" aria-current=\"false\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+            "nodeLabel": "2",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (10px by 10px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-2-BUTTON",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,0,LI,0,BUTTON",
+                  "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li.slick-active > button#slick-slide-control10",
+                  "boundingRect": {
+                    "top": 2556,
+                    "bottom": 2566,
+                    "left": 12,
+                    "right": 22,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control10\" aria-controls=\"slick-slide10\" aria-label=\"Carousel Slide 1\" aria-pressed=\"true\" aria-current=\"true\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+                  "nodeLabel": "1"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-4-BUTTON",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,2,LI,0,BUTTON",
+                  "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li > button#slick-slide-control12",
+                  "boundingRect": {
+                    "top": 2556,
+                    "bottom": 2566,
+                    "left": 52,
+                    "right": 62,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control12\" aria-controls=\"slick-slide12\" aria-label=\"Carousel Slide 3\" aria-pressed=\"false\" aria-current=\"false\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+                  "nodeLabel": "3"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-4-BUTTON",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,2,LI,0,BUTTON",
+            "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li > button#slick-slide-control12",
+            "boundingRect": {
+              "top": 2556,
+              "bottom": 2566,
+              "left": 52,
+              "right": 62,
+              "width": 10,
+              "height": 10
+            },
+            "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control12\" aria-controls=\"slick-slide12\" aria-label=\"Carousel Slide 3\" aria-pressed=\"false\" aria-current=\"false\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+            "nodeLabel": "3",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (10px by 10px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-3-BUTTON",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,1,LI,0,BUTTON",
+                  "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li > button#slick-slide-control11",
+                  "boundingRect": {
+                    "top": 2556,
+                    "bottom": 2566,
+                    "left": 32,
+                    "right": 42,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control11\" aria-controls=\"slick-slide11\" aria-label=\"Carousel Slide 2\" aria-pressed=\"false\" aria-current=\"false\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+                  "nodeLabel": "2"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-13-BUTTON",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,3,LI,0,BUTTON",
+                  "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li > button#slick-slide-control13",
+                  "boundingRect": {
+                    "top": 2556,
+                    "bottom": 2566,
+                    "left": 72,
+                    "right": 82,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control13\" aria-controls=\"slick-slide13\" aria-label=\"Carousel Slide 4\" aria-pressed=\"false\" aria-current=\"false\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+                  "nodeLabel": "4"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "1-13-BUTTON",
+            "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,3,LI,0,BUTTON",
+            "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li > button#slick-slide-control13",
+            "boundingRect": {
+              "top": 2556,
+              "bottom": 2566,
+              "left": 72,
+              "right": 82,
+              "width": 10,
+              "height": 10
+            },
+            "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control13\" aria-controls=\"slick-slide13\" aria-label=\"Carousel Slide 4\" aria-pressed=\"false\" aria-current=\"false\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+            "nodeLabel": "4",
+            "explanation": "Fix any of the following:\n  Target has insufficient size (10px by 10px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 16px instead of at least 24px."
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "1-4-BUTTON",
+                  "path": "1,HTML,1,BODY,12,DIV,2,FOOTER,0,SECTION,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,UL,2,LI,0,BUTTON",
+                  "selector": "div#slick-8b1bcf1945e > ul.slick-dots > li > button#slick-slide-control12",
+                  "boundingRect": {
+                    "top": 2556,
+                    "bottom": 2566,
+                    "left": 52,
+                    "right": 62,
+                    "width": 10,
+                    "height": 10
+                  },
+                  "snippet": "<button type=\"button\" role=\"button\" id=\"slick-slide-control12\" aria-controls=\"slick-slide12\" aria-label=\"Carousel Slide 3\" aria-pressed=\"false\" aria-current=\"false\" data-uw-rm-kbnav=\"role\" tabindex=\"0\">",
+                  "nodeLabel": "3"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "wcag22aa",
+          "wcag258"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

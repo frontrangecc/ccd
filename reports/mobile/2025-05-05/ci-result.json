@@ -1,0 +1,1602 @@
+[
+  {
+    "path": "/",
+    "score": 0.77,
+    "performance": 0.48,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/2025-commencement",
+    "score": 0.81,
+    "performance": 0.54,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/about",
+    "score": 0.74,
+    "performance": 0.52,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/about/accreditation/ccd-online-accreditation-state-authorization",
+    "score": 0.85,
+    "performance": 0.62,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/accreditation/consumer-information-disclosures",
+    "score": 0.81,
+    "performance": 0.65,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/campus-information",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/community-clinics",
+    "score": 0.8,
+    "performance": 0.66,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/about/our-history",
+    "score": 0.85,
+    "performance": 0.6,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/vision-mission-strategic-plan",
+    "score": 0.78,
+    "performance": 0.62,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/academic-advising-and-student-success-center/academic-advisors",
+    "score": 0.83,
+    "performance": 0.61,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/academic-advising-and-student-success-center/learning-options",
+    "score": 0.82,
+    "performance": 0.6,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/academic-advising-and-student-success-center/transfer-support",
+    "score": 0.84,
+    "performance": 0.65,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/academic-advising-student-success-center",
+    "score": 0.77,
+    "performance": 0.58,
+    "accessibility": 0.81,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/academic-pathways",
+    "score": 0.82,
+    "performance": 0.59,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/academics",
+    "score": 0.82,
+    "performance": 0.64,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/accelerated-business-administration-classes",
+    "score": 0.85,
+    "performance": 0.64,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/academics-programs/pathways-study/arts-communication-design/english/ourglass-student-publication",
+    "score": 0.79,
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/academics-programs/pathways-study/arts-communication-design/graphic-design/annual-student-art",
+    "score": 0.83,
+    "performance": 0.59,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/academics-programs/pathways-study/arts-communication-design/graphic-design/nelson-mullins-artist",
+    "score": 0.85,
+    "performance": 0.65,
+    "accessibility": 0.9,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/academics-programs/pathways-study/health-sciences/disqualifying-criminal-offenses-health-nursing",
+    "score": 0.84,
+    "performance": 0.6,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/academics-programs/pathways-study/science-technology-engineering-mathematics/engineering",
+    "score": 0.82,
+    "performance": 0.6,
+    "accessibility": 0.9,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/accessibility-center",
+    "score": 0.82,
+    "performance": 0.65,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/accessibility-center/accommodated-testing",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/accessibility-center/alternative-format-textbooks",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/accessibility-center/assistive-technology",
+    "score": 0.83,
+    "performance": 0.61,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/accreditation",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions-recruitment-and-outreach/enrollment-process-guest-students",
+    "score": 0.84,
+    "performance": 0.67,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/admissions-recruitment-and-outreach/enrollment-process-new-first-time-students",
+    "score": 0.82,
+    "performance": 0.59,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/admissions-recruitment-and-outreach/enrollment-process-online-students",
+    "score": 0.82,
+    "performance": 0.6,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/admissions-recruitment-and-outreach/enrollment-process-students-disability",
+    "score": 0.84,
+    "performance": 0.67,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/admissions-recruitment-and-outreach/enrollment-process-transfer-student-credit",
+    "score": 0.83,
+    "performance": 0.61,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/admissions-recruitment-and-outreach/gap-year",
+    "score": 0.84,
+    "performance": 0.66,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/admissions-recruitment-and-outreach/inter-institutional-program",
+    "score": 0.83,
+    "performance": 0.63,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/admissions-recruitment-and-outreach/underage-enrollment",
+    "score": 0.82,
+    "performance": 0.66,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/admissions-recruitment-outreach",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/advanced-manufacturing-center",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/alerts-closures",
+    "score": 0.86,
+    "performance": 0.65,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/alumni-association",
+    "score": 0.82,
+    "performance": 0.6,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/become-dental-patient-request-appointment",
+    "score": 0.85,
+    "performance": 0.63,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/auraria-campus-students-approve-continuation-rtd-college-pass-program-and-addition-new-campus",
+    "score": 0.84,
+    "performance": 0.6,
+    "accessibility": 0.9,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/ccd-inclusive-excellence-leadership-team-celebrates-daca-decision",
+    "score": 0.84,
+    "performance": 0.6,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/ccd-prioritization/background-prioritization-background-part-3",
+    "score": 0.86,
+    "performance": 0.68,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/ccd-prioritization/background-prioritization-background-part-5",
+    "score": 0.84,
+    "performance": 0.62,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/cityhawk-talk/campus-resources-ccd-opens-reflection-room-cherry-creek-building",
+    "score": 0.84,
+    "performance": 0.61,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/cityhawk-talk/campus-resources-strengthening-working-families-initiative",
+    "score": 0.84,
+    "performance": 0.6,
+    "accessibility": 0.9,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/cityhawk-talk/campus-resources-tivoli-beer-company-returns-auraria-campus-after-45-year-hiatus",
+    "score": 0.85,
+    "performance": 0.65,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/cityhawk-talk/ccd-life-remembrance-ceremony",
+    "score": 0.84,
+    "performance": 0.62,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/cityhawk-talk/ccds-engineering-momentum-stem-core-program",
+    "score": 0.85,
+    "performance": 0.64,
+    "accessibility": 0.9,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/cityhawk-talk/enrollment-student-services-want-bs-degree-health-care-management-start-here-go",
+    "score": 0.83,
+    "performance": 0.59,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/cityhawk-talk/lgbtq-history-month-origins-0",
+    "score": 0.83,
+    "performance": 0.66,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/blog/cityhawk-talk/student-success-stories-sarah-frazier-named-2019-coca-cola-leaders-promise",
+    "score": 0.83,
+    "performance": 0.59,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/inclusive-excellence-leadership-team-responds-us-supreme-court-decision-lgbtq-rights",
+    "score": 0.83,
+    "performance": 0.59,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/message-ccd-inclusive-excellence-leadership-team",
+    "score": 0.84,
+    "performance": 0.6,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/press-room/ccd-featured-9news",
+    "score": 0.83,
+    "performance": 0.58,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/press-room/ccd-news-industrial-machining-digest-features-amc-programs",
+    "score": 0.83,
+    "performance": 0.59,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/press-room/community-college-denver-awarded-grant-meet-high-demand-skilled-workers-stem",
+    "score": 0.84,
+    "performance": 0.6,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/press-room/community-college-denver-graduation-rate-rise",
+    "score": 0.84,
+    "performance": 0.61,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/press-room/community-college-denver-launches-new-cannabis-business-degree",
+    "score": 0.84,
+    "performance": 0.63,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/press-room/latest-news-ccd-launching-first-integrated-nursing-pathways-program-partnership",
+    "score": 0.84,
+    "performance": 0.6,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/press-room/press-room-ccd-news",
+    "score": 0.84,
+    "performance": 0.62,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/press-room/press-room-community-college-denver-win-award-scholarships-military-veterans",
+    "score": 0.84,
+    "performance": 0.6,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/blog/statement-colorado-department-higher-education-and-colleges-and-universities-daca",
+    "score": 0.83,
+    "performance": 0.58,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/campus-safety",
+    "score": 0.86,
+    "performance": 0.65,
+    "accessibility": 0.94,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/cannabis-education",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/career-advance-colorado",
+    "score": 0.8,
+    "performance": 0.64,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/cashiers-office",
+    "score": 0.81,
+    "performance": 0.62,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/cashiers-office/payment-options",
+    "score": 0.81,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/cashiers-office/student-fees",
+    "score": 0.84,
+    "performance": 0.66,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/cashiers-office/tuition-rates-credit-hour",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.86,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/ccd-foundation",
+    "score": 0.82,
+    "performance": 0.65,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/CCD-foundation-legacy-society",
+    "score": 0.81,
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/ccd-foundation/ccd-scholarships",
+    "score": 0.82,
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/ccd-life/student-clubs-organizations",
+    "score": 0.84,
+    "performance": 0.67,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/ccd-msu-denver-transfer-summit",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/ccd-online",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/ccd-online/online-education-resources",
+    "score": 0.85,
+    "performance": 0.7,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/ccd-votes",
+    "score": 0.82,
+    "performance": 0.59,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/center-workforce-initiatives",
+    "score": 0.79,
+    "performance": 0.65,
+    "accessibility": 0.81,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/certificates",
+    "score": 0.83,
+    "performance": 0.61,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/cityhawk-podtalk",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/complaint-filing-procedure-students-outside-colorado",
+    "score": 0.85,
+    "performance": 0.6,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/counseling-center",
+    "score": 0.85,
+    "performance": 0.6,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/directory/barbara-jennings",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/directory/hannah-edwards-martinez",
+    "score": 0.82,
+    "performance": 0.58,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/directory/jennifer-schur",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/directory/mollye-d-russell",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/directory/negean-mohi",
+    "score": 0.84,
+    "performance": 0.66,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/directory/richard-marr",
+    "score": 0.84,
+    "performance": 0.65,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/directory/shana-stovall",
+    "score": 0.85,
+    "performance": 0.63,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/directory/zachary-p-villegas",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/docs/captioning-key",
+    "score": 0.85,
+    "performance": 0.61,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/docs/civil-rights-grievance-investigation",
+    "score": 0.84,
+    "performance": 0.62,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/docs/family-size-dependent-student",
+    "score": 0.85,
+    "performance": 0.63,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/docs/health-immunization-form-radiologic-technology-program",
+    "score": 0.84,
+    "performance": 0.6,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/docs/immunization-and-health-requirements-form",
+    "score": 0.83,
+    "performance": 0.66,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/docs/quickguide-how-update-address",
+    "score": 0.84,
+    "performance": 0.6,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/docs/use-classroom-space",
+    "score": 0.85,
+    "performance": 0.67,
+    "accessibility": 0.89,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/docs/writing-effective-conclusion",
+    "score": 0.86,
+    "performance": 0.66,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/dreamers-and-undocumented-students/casfa",
+    "score": 0.84,
+    "performance": 0.66,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/dreamers-and-undocumented-students/casfa-and-asset",
+    "score": 0.84,
+    "performance": 0.64,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/dreamers-and-undocumented-students/financial-aid-scholarship-instructions",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/dreamers-and-undocumented-students/immigration-resources-colorado",
+    "score": 0.83,
+    "performance": 0.63,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/dreamers-and-undocumented-students/private-scholarships-resources",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/dreamers-and-undocumented-students/steps-enrollment-english-spanish",
+    "score": 0.82,
+    "performance": 0.66,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/dreamers-and-undocumented-students/thedreamus-scholarship",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/dreamers-undocumented-student-information",
+    "score": 0.81,
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/educational-opportunity-center",
+    "score": 0.77,
+    "performance": 0.59,
+    "accessibility": 0.79,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/employee-hub",
+    "score": 0.8,
+    "performance": 0.59,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/excel-zone",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.8,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/excel-zone/digital-zone",
+    "score": 0.82,
+    "performance": 0.63,
+    "accessibility": 0.86,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/excel-zone/math-science-zone",
+    "score": 0.81,
+    "performance": 0.6,
+    "accessibility": 0.86,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/excel-zone/writing-zone",
+    "score": 0.81,
+    "performance": 0.6,
+    "accessibility": 0.86,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/extenuating-circumstance-appeals",
+    "score": 0.83,
+    "performance": 0.63,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/facilities-management-services",
+    "score": 0.86,
+    "performance": 0.67,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships",
+    "score": 0.78,
+    "performance": 0.61,
+    "accessibility": 0.8,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/financial-aid-scholarships/empowered",
+    "score": 0.8,
+    "performance": 0.58,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/financial-aid-scholarships/fostered",
+    "score": 0.82,
+    "performance": 0.64,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/financial-aid-scholarships/guide-financial-aid/accepting-receiving-my-awards",
+    "score": 0.82,
+    "performance": 0.65,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/financial-aid-scholarships/guide-financial-aid/accepting-receiving-my-awards/award-policy",
+    "score": 0.84,
+    "performance": 0.65,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/guide-financial-aid/accepting-receiving-my-awards/financial-aid-award",
+    "score": 0.84,
+    "performance": 0.67,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/guide-financial-aid/accepting-receiving-my-awards/how-do-i-pay-my-books",
+    "score": 0.83,
+    "performance": 0.63,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/guide-financial-aid/accepting-receiving-my-awards/special-circumstances",
+    "score": 0.83,
+    "performance": 0.63,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/guide-financial-aid/calculating-cost-attend-ccd",
+    "score": 0.84,
+    "performance": 0.66,
+    "accessibility": 0.86,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/guide-financial-aid/keeping-my-aid",
+    "score": 0.83,
+    "performance": 0.61,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/guide-financial-aid/new-fafsa-2024-2025",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/guide-financial-aid/relief-funds-and-resources",
+    "score": 0.83,
+    "performance": 0.63,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/guide-financial-aid/relief-funds-and-resources/resources-students-facing",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/keeping-my-aid/impact-not-completing-my-classes",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/keeping-my-aid/sap",
+    "score": 0.84,
+    "performance": 0.66,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/promise-programs/colorado-promise-tax-credit",
+    "score": 0.84,
+    "performance": 0.64,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/scholarships/accepting-scholarship-terms-conditions",
+    "score": 0.83,
+    "performance": 0.62,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/scholarships/applying-scholarships",
+    "score": 0.78,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/scholarships/even-more-scholarships",
+    "score": 0.84,
+    "performance": 0.64,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/scholarships/frequently-asked-questions",
+    "score": 0.82,
+    "performance": 0.6,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/scholarships/sending-scholarship-check",
+    "score": 0.84,
+    "performance": 0.66,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/types-aid/come-work-us-work-study-student",
+    "score": 0.83,
+    "performance": 0.61,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/types-aid/grants",
+    "score": 0.78,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/types-aid/student-loans",
+    "score": 0.84,
+    "performance": 0.66,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/financial-aid-scholarships/types-aid/student-loans/student-loan-repayment-chart",
+    "score": 0.83,
+    "performance": 0.62,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/first-generation",
+    "score": 0.76,
+    "performance": 0.6,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/fiscal-services",
+    "score": 0.84,
+    "performance": 0.6,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/general-complaint-or-concern",
+    "score": 0.84,
+    "performance": 0.59,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/graduation-commencement",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/graduation-commencement/2022-commencement",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/graduation-commencement/2023-commencement",
+    "score": 0.78,
+    "performance": 0.6,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/graduation-commencement/2024-commencement",
+    "score": 0.83,
+    "performance": 0.59,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/grant-development",
+    "score": 0.84,
+    "performance": 0.59,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/high-school-connections",
+    "score": 0.74,
+    "performance": 0.65,
+    "accessibility": 0.8,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/high-school-connections/high-school-counselors",
+    "score": 0.82,
+    "performance": 0.6,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/high-school-connections/high-school-teachers-and-administrators",
+    "score": 0.84,
+    "performance": 0.66,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/high-school-connections/parents-and-guardians",
+    "score": 0.77,
+    "performance": 0.58,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/high-school-connections/students",
+    "score": 0.84,
+    "performance": 0.68,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/home-jan-2021",
+    "score": 0.79,
+    "performance": 0.62,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/honors-programs-societies",
+    "score": 0.73,
+    "performance": 0.62,
+    "accessibility": 0.79,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/honors-programs-societies/ccd-honors-program",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/honors-programs-societies/phi-theta-kappa",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/honors-programs-societies/psi-beta",
+    "score": 0.77,
+    "performance": 0.56,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/honors-programs-societies/sigma-chi-eta",
+    "score": 0.84,
+    "performance": 0.67,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/how-do-i-make-complaint-or-appeal",
+    "score": 0.85,
+    "performance": 0.6,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/hsi",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/hsi-committee",
+    "score": 0.79,
+    "performance": 0.6,
+    "accessibility": 0.87,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/human-resources",
+    "score": 0.74,
+    "performance": 0.63,
+    "accessibility": 0.8,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/human-resources/clery-act-reporters",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/human-resources/discrimination-harassment",
+    "score": 0.77,
+    "performance": 0.58,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/human-resources/employee-benefits",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/human-resources/employee-obligation",
+    "score": 0.79,
+    "performance": 0.66,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/human-resources/employee-policies-procedures",
+    "score": 0.79,
+    "performance": 0.63,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/human-resources/equal-opportunity-ccd",
+    "score": 0.8,
+    "performance": 0.69,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/human-resources/how-do-i-file-complaint-discrimination-or-harassment",
+    "score": 0.78,
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/human-resources/notice-non-discrimination",
+    "score": 0.8,
+    "performance": 0.68,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/industry-hub",
+    "score": 0.84,
+    "performance": 0.64,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/information-technology-services",
+    "score": 0.74,
+    "performance": 0.58,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/information-technology-services/aurarianet-20-campus-wifi",
+    "score": 0.83,
+    "performance": 0.61,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/information-technology-services/student-multi-factor-authentication-mfa",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.93,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/innovate",
+    "score": 0.74,
+    "performance": 0.58,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.77
+  },
+  {
+    "path": "/institutional-research-analytics-effectiveness",
+    "score": 0.78,
+    "performance": 0.61,
+    "accessibility": 0.89,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/international-students",
+    "score": 0.83,
+    "performance": 0.6,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/international-students/frequently-asked-questions",
+    "score": 0.79,
+    "performance": 0.64,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/international-students/i-20-visa-status-information",
+    "score": 0.85,
+    "performance": 0.69,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/legal-notices-and-disclaimers",
+    "score": 0.79,
+    "performance": 0.65,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/marketing-and-communications",
+    "score": 0.82,
+    "performance": 0.66,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/moon-shot",
+    "score": 0.8,
+    "performance": 0.65,
+    "accessibility": 0.94,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/NatliLoveHorsesDay24",
+    "score": 0.84,
+    "performance": 0.62,
+    "accessibility": 0.9,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/node/7736",
+    "score": 0.85,
+    "performance": 0.62,
+    "accessibility": 0.92,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/node/7744",
+    "score": 0.81,
+    "performance": 0.64,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/nondiscriminationtitle-ix",
+    "score": 0.84,
+    "performance": 0.67,
+    "accessibility": 0.84,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/office-president",
+    "score": 0.79,
+    "performance": 0.6,
+    "accessibility": 0.79,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/office-president/ccd-executive-council",
+    "score": 0.76,
+    "performance": 0.58,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.85
+  },
+  {
+    "path": "/office-provost",
+    "score": 0.81,
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/office-provost/meet-departmental-chairs-and-deans",
+    "score": 0.81,
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.85
+  },
+  {
+    "path": "/office-registration-and-records/college-opportunity-fund-cof",
+    "score": 0.78,
+    "performance": 0.61,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/office-registration-and-records/degree-works-faqs",
+    "score": 0.82,
+    "performance": 0.59,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/office-registration-and-records/enrollment-verification",
+    "score": 0.83,
+    "performance": 0.61,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/office-registration-and-records/family-educational-rights-privacy-act-ferpa",
+    "score": 0.79,
+    "performance": 0.66,
+    "accessibility": 0.84,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/office-registration-and-records/registering-classes",
+    "score": 0.82,
+    "performance": 0.56,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/office-registration-and-records/residency-requirements",
+    "score": 0.85,
+    "performance": 0.7,
+    "accessibility": 0.85,
+    "best-practices": 0.93,
+    "seo": 0.92
+  },
+  {
+    "path": "/office-registration-and-records/transcript-request",
+    "score": 0.8,
+    "performance": 0.68,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/office-registration-records",
+    "score": 0.77,
+    "performance": 0.59,
+    "accessibility": 0.79,
+    "best-practices": 0.93,
+    "seo": 0.77
+  },
+  {
+    "path": "/parent-plus-loan",
+    "score": 0.81,
+    "performance": 0.62,
+    "accessibility": 0.93,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/paying-college/financial-aid-what-it-how-do-i-apply",
+    "score": 0.77,
+    "performance": 0.58,
+    "accessibility": 0.85,
+    "best-practices": 0.75,
+    "seo": 0.92
+  }
+]
